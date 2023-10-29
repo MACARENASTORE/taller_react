@@ -1,16 +1,17 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center; /* Cambiar a 'space-between' si es necesario */
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
+  display: flex;
+  flex-direction: column; /* Cambiar según tus necesidades */
+  justify-content: center; /* Cambiar según tus necesidades */
+  align-items: center; /* Cambiar según tus necesidades */
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
@@ -33,7 +34,6 @@
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
-
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
